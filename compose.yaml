@@ -22,7 +22,7 @@ services:
     depends_on:
       - postgres
     ports:
-      - "8080:8080"
+      - "8500:8500"
     networks:
       - app-net
 
